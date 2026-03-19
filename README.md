@@ -37,10 +37,9 @@ Tailwind CSS (Next goal)
 TypeScript
 
 Let's Connect!
-LinkedIn: linkedin.com/in/fernandasotomayor-frontend
 
-Email: fernandasotomayortech@gmail.com
-
-GitHub: github.com/FernandaSotomayor-Tech
+* **LinkedIn:** [fernandasotomayor-frontend](https://www.linkedin.com/in/fernandasotomayor-frontend)
+* **Email:** [fernandasotomayortech@gmail.com](mailto:fernandasotomayortech@gmail.com)
+* **GitHub:** [FernandaSotomayor-Tech](https://github.com/FernandaSotomayor-Tech)
 
 Developed by Fernanda Sotomayor - 2026
