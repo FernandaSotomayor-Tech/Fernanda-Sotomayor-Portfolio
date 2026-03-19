@@ -1,0 +1,455 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: vogue;
+    src: url(./assets/Classyvogueregular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR START */
+.navbar {
+    background-color: #fffff4;
+    padding: 15px;
+    border-bottom: 1px solid #101010;
+    transition: background-color 0.4s ease, padding 0.4s ease;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: #101010;
+    text-decoration: underline;
+    transition: all 0 3s ease;
+}
+
+.nav-link:hover {
+    color: #0b2398;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: #F09A87 !important;
+    border: 1px solid #363636 !important;               
+    padding: 8px !important;           
+    box-shadow: none !important;       
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); 
+}
+
+.navbar-toggler:hover {
+    background-color: #fdc3b6 !important;
+}
+ .navbar.navbar-scrolled {
+    background-color: #feae9c;
+    border-bottom: 1px solid black;
+    transition: all 0.4s ease;
+    padding: 10px; 
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: #101010;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.navbar.navbar-scrolled .nav-link,
+.navbar.navbar-scrolled .navbar-brand {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar.navbar-scrolled .navbar-toggler {
+    border-color: #ffffff !important;
+}
+
+
+/* NAVBAR END */
+/* HERO START */
+.display-3 {
+    font-family: vogue;
+    font-size: 28px !important;
+    font-weight: 100 !important;
+    color: #191919;
+}
+
+.py-5 {
+    background-color: #FCECDA;
+}
+
+.title-hero{
+    font-family: vogue;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.lead {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 18px !important;
+}
+
+.fw-bold{
+    font-size: 20px;
+}
+
+.btn-hero {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 35px;
+    margin-left: -5px;
+    color: white;
+    background-color: #F09A87;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-hero:hover {
+    background-color: #f7b5a6;
+    color: #fff;
+}
+
+section.py-5.vh-100.d-flex {
+    position: relative;
+    overflow: hidden;
+}
+
+.snow-layer {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.snowflake {
+    position: absolute;
+    top: -20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    filter: blur(0.5px);
+    animation: fall1 linear infinite, colorShift 6s ease-in-out infinite;
+}
+
+@keyframes fall1 {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        transform: translateY(110vh) translateX(15px);
+    }
+}
+
+@keyframes colorShift {
+    0% {
+        background-color: #f7b5a6;
+    }
+
+    50% {
+        background-color: #F09A87;
+    }
+
+    100% {
+        background-color: #f7b5a6;
+    }
+}
+
+.bi:hover{
+    transition: 0.3s all ease-in;
+    color: #F09A87;
+}
+
+
+/* HERO END */
+/* About me start */
+
+.img-about-me {
+    height: 300px;
+    width: 50%;
+}
+
+.img-fluid{
+    border-radius: 10px !important;
+}
+
+
+.col-md-6{
+    background-color: #121111;
+    color: #fdfdef;
+    padding: 50px;
+    height: 800px;
+}
+
+.container-about-me-2{
+    margin-left: 50px;
+}
+
+.mb-4{
+    font-size: 17px;
+}
+
+.display-5{
+    font-family: vogue;
+    font-size: 60px !important;
+}
+
+.span-aboutMe{
+    color: #F09A87;
+}
+
+.btn-aboutMe{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 15px 35px;
+    margin-left: -5px;
+    color: white;
+    background-color: #F09A87;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-aboutMe:hover {
+    background-color: #f7b5a6;
+    color: #fff;
+}
+
+
+/* about me end */
+/* skills start */
+.skills-section {
+    background-color: #FCECDA;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+
+.skills-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    font-family: vogue;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.skill-item {
+    background-color: #FCECDA;
+    border-bottom: 1px solid #30363d !important;
+    padding: 24px 0;
+}
+
+.skill-item:last-child {
+    border-bottom: none !important;
+}
+
+.skill-name {
+    font-weight: 400;
+    font-size: 17.6px;
+    color: black;
+}
+
+.skill-details {
+    font-size: 14.4px;
+    color: #a8a8a8;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-uiux {
+    background-color: #6C5CE7;
+}
+
+.icon-htmlcss {
+    background-color: #FF764D;
+}
+
+.icon-css {
+    background-color: #4285F4;
+}
+
+.icon-js {
+    background-color: #F7D300;
+}
+
+.icon-stacked {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.icon-stacked .icon-container {
+    width: 28px !important;
+    height: 28px !important;
+    position: absolute;
+}
+
+.icon-stacked .icon-container:first-child {
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.icon-stacked .icon-container:last-child {
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+/* skills end */
+
+/* Projects section start */
+.portfolio-container {
+    background-color: #121111;
+    min-height: 100vh !important;
+    padding: 80px !important;
+}
+
+.project {
+    color: white;
+    font-family: vogue;
+    font-size: 70px;
+    padding: 15px !important;
+}
+
+.badge {
+    color: #191919 !important;
+    background-color: #fcccc2;
+}
+
+.card-text {
+    font-size: 16px !important;
+}
+
+.btn {
+    background-color: #F09A87 !important;
+    transition: 0.3s all ease-in;
+    border: 1px solid black !important;
+}
+
+.btn:hover{
+    background-color: #f7b5a6 !important;
+}
+
+
+.card1 {
+    transition: transform 0.3s ease;
+    background-color: #fdfdef;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-body{
+    padding: 20px !important;
+}
+
+.card-title{
+    margin-top: 10px;
+}
+
+/* Projects section end */
+/* Contact section start */
+
+.contact-section {
+    background-color: #f7b5a6 !important;
+    min-height: 650px !important;
+    padding: 30px;
+}
+
+.card {
+    background-color: #fdfdef !important;
+    border: 1px solid #121111 !important;
+    color: white;
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.2s !important;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-5px) !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+}
+
+.btn-contact {
+    text-decoration: none;
+}
+
+.title-contacMe {
+    font-family: vogue;
+    font-size: 70px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.text-muted {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #121111;
+}
+
+.btn-contact {
+    color: #fdfdef;
+    background-color: #f7b5a6;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+.btn-contact:hover{
+    color: #191919;
+    background-color: transparent;
+    border: 1px solid #191919;
+}
+/* Contact end */
+
+/* Footer start */
+.mini-footer {
+    background-color: #FCECDA; 
+}
+
+.footer-divider {
+    width: 50px;
+    margin: 0 auto;
+    border-top: 2px solid #ff4d94;
+    opacity: 1;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    color: #6c757d; 
+    letter-spacing: 0.5px;
+}
+
+.footer-text strong {
+    color: #343a40; 
+}
+/* Footer end */
