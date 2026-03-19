@@ -38,7 +38,7 @@ TypeScript
 
 Let's Connect!
 
-LinkedIn: Fernanda Sotomayor
+LinkedIn: https://www.linkedin.com/in/fernanda-sotomayor-frontend/
 
 Email: fernandasotomayortech@gmail.com
 
