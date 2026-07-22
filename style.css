@@ -175,6 +175,8 @@ section.py-5.vh-100.d-flex {
 /* HERO END */
 /* About me start */
 
+
+
 .img-about-me {
     height: 300px;
     width: 50%;
@@ -198,6 +200,11 @@ section.py-5.vh-100.d-flex {
 
 .mb-4{
     font-size: 17px;
+}
+
+.h3-about-me{
+    font-family: vogue;
+    font-size: 45px !important;
 }
 
 .display-5{
@@ -337,6 +344,12 @@ section.py-5.vh-100.d-flex {
     padding: 15px !important;
 }
 
+.h2-project{
+    color: black;
+    font-family: vogue;
+    font-size: 18px;
+}
+
 .badge {
     color: #191919 !important;
     background-color: #fcccc2;
@@ -360,16 +373,19 @@ section.py-5.vh-100.d-flex {
 .card1 {
     transition: transform 0.3s ease;
     background-color: #fdfdef;
-    height: 100%;
     border-radius: 10px;
+    height: 50% !important;
 }
 
 .card-body{
     padding: 20px !important;
+    width: 100%;
 }
 
 .card-title{
     margin-top: 10px;
+    color: black !important;
+    font-family: vogue;
 }
 
 /* Projects section end */
