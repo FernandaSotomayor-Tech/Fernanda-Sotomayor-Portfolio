@@ -1,44 +1,29 @@
 Fernanda Sotomayor | Junior Front-End Developer
 
-Welcome to my professional portfolio! I am a Junior Front-End Developer focused on building scalable, responsive interfaces and solving real business problems through clean and efficient code.
+I'm a Front-End Developer from Argentina focused on building responsive, user-friendly interfaces with React.js, JavaScript, HTML5, and CSS3.
 
-About Me
-I specialize in modern web development with a "mobile-first" and minimalist design philosophy. Currently, I am expanding my skills in React.js and State Management.
+I learned through hands-on practice and personal projects, working with reusable components, APIs, responsive design, and clean, maintainable code.
 
-Location: Catamarca, Argentina.
-English Level: Intermediate (B1).
-Goal: Contributing to professional teams and growing under the guidance of experienced developers.
+I'm currently looking for my first Front-End Developer role in a remote team, where I can contribute, learn from experienced developers, and grow through real-world projects and feedback.
 
 Tech Stack
-Core: HTML5, CSS3, JavaScript (ES6+).
-Frameworks and Libraries: React.js, React Router, Bootstrap.
-Styles: Sass (SCSS), Flexbox, Grid.
-Tools: Git, GitHub, Netlify, Vite.
+
+Core:HTML5, CSS3, JavaScript (ES6+), React.js, TypeScript
+Tools: React Router, CSS Modules, Sass, Flexbox, Grid, Git, GitHub, Vite
 
 Featured Projects
 
-Eterna Beauty
-Problem: Service organization and mobile usability issues.
-Solution: Built a scalable, UX-driven landing page using React.
-Key Tech: React, Modular CSS.
+Movie Lookup — React app connected to the TMDB API, with dynamic movie routes, responsive design, and fallback handling for missing data.
 
-Movie Lookup
-Problem: Unstable UX when handling external data.
-Solution: Developed a structured SPA with dynamic routing and defensive data handling.
-Key Tech: React, External APIs.
+Eterna Beauty — Responsive React landing page with reusable components and smooth navigation.
 
-YumTrack
-Problem: Inefficient food tracking for users.
-Solution: Created a dynamic DOM-based app with real-time search and persistent localStorage.
-Key Tech: Vanilla JavaScript.
-
-Learning Roadmap
-Tailwind CSS (Next goal)
-TypeScript
+Car Wash System — Mobile-first React and TypeScript application for vehicle status tracking.
 
 Let's Connect!
 
 LinkedIn: https://www.linkedin.com/in/fernanda-sotomayor-frontend/
+
+Portfolio: https://fernandasotomayor-portafolio.netlify.app/
 
 Email: fernandasotomayortech@gmail.com
 
